@@ -1,0 +1,24 @@
+{
+  "name": "midnight-accountability-blueprint",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:all": "vitest run",
+    "build": "tsc -p tsconfig.json",
+    "hash": "tsx scripts/hash-quest.ts",
+    "e2e": "vitest run test/flow.test.ts",
+    "cli": "tsx cli.ts"
+  },
+  "dependencies": {
+    "@noble/hashes": "^1.5.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.5",
+    "@types/node": "^22.7.5",
+    "tsx": "^4.19.2"
+  }
+}
