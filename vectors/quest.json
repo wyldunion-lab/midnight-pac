@@ -1,0 +1,17 @@
+{
+  "name": "Midnight accountability",
+  "time": {
+    "start": "2024-01-01T00:00:00Z",
+    "end": "2024-02-01T00:00:00Z",
+    "milestoneFrequency": { "windowDays": 7 }
+  },
+  "settlement": {
+    "successCriteria": { "minWindowsCompletedPct": 60 }
+  },
+  "economics": {
+    "payoutMode": "PPC",
+    "rewardPool": { "amount": 1000, "asset": "PACT" },
+    "payoutWeights": { "completionWeight": 0.8, "reputationWeight": 0.2 },
+    "tournament": { "entrants": 10, "culledCount": 4 }
+  }
+}

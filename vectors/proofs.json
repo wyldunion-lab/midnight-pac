@@ -1,0 +1,30 @@
+{
+  "player": "addr_test1qplr52z8z8p4tsc6c0",
+  "submissions": [
+    {
+      "circuitId": "count-threshold-v1",
+      "vkId": "vk-count",
+      "proof": "0x01",
+      "publicSignals": { "met": 1, "target": 1, "windowIndex": 0, "questHash": "<0xquest>" },
+      "nullifiers": ["0xdeadbeef-0"]
+    },
+    {
+      "circuitId": "count-threshold-v1",
+      "vkId": "vk-count",
+      "proof": "0x02",
+      "publicSignals": { "met": 1, "target": 1, "windowIndex": 1, "questHash": "<0xquest>" },
+      "nullifiers": ["0xdeadbeef-1"]
+    },
+    {
+      "circuitId": "deadline-v1",
+      "vkId": "vk-deadline",
+      "proof": "0x03",
+      "publicSignals": {
+        "ok": 1,
+        "submissionEpoch": 1704067200,
+        "deadlineEpoch": 1704153600,
+        "questHash": "<0xquest>"
+      }
+    }
+  ]
+}
